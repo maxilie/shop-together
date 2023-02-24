@@ -1,0 +1,757 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feed component renders correctly 1`] = `
+Array [
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        Object {
+          "backgroundColor": "white",
+          "marginTop": 107.64,
+        },
+      ]
+    }
+  >
+    <View
+      entering={BaseAnimationMock {}}
+      exiting={BaseAnimationMock {}}
+      style={
+        Object {
+          "zIndex": 2,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        onLayout={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#fafbfb",
+            "elevation": 4,
+            "shadowColor": "gray",
+            "shadowOffset": Object {
+              "height": 6.4584,
+              "width": 0,
+            },
+            "shadowOpacity": 0.3,
+            "shadowRadius": 3.2292,
+            "zIndex": 1,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          pointerEvents="none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            style={
+              Object {
+                "backgroundColor": "rgb(0, 122, 255)",
+                "bottom": 0,
+                "height": 2,
+                "left": "0%",
+                "position": "absolute",
+                "right": 0,
+                "transform": Array [],
+                "width": "NaN%",
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "overflow": "scroll",
+            }
+          }
+        >
+          <RCTScrollView
+            accessibilityRole="tablist"
+            alwaysBounceHorizontal={false}
+            automaticallyAdjustContentInsets={false}
+            contentContainerStyle={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                },
+                Object {
+                  "flex": 1,
+                },
+                Object {
+                  "height": 41.400000000000006,
+                },
+              ]
+            }
+            data={
+              Array [
+                Object {
+                  "key": "MyPosts-mock-nanoid-id",
+                  "name": "MyPosts",
+                  "params": undefined,
+                },
+                Object {
+                  "key": "FollowingPosts-mock-nanoid-id",
+                  "name": "FollowingPosts",
+                  "params": undefined,
+                },
+              ]
+            }
+            getItem={[Function]}
+            getItemCount={[Function]}
+            horizontal={true}
+            initialNumToRender={10}
+            keyExtractor={[Function]}
+            keyboardShouldPersistTaps="handled"
+            onContentSizeChange={[Function]}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            onViewableItemsChanged={[Function]}
+            overScrollMode="never"
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={16}
+            scrollsToTop={false}
+            showsHorizontalScrollIndicator={false}
+            showsVerticalScrollIndicator={false}
+            stickyHeaderIndices={Array []}
+            viewabilityConfigCallbackPairs={
+              Array [
+                Object {
+                  "onViewableItemsChanged": [Function],
+                  "viewabilityConfig": undefined,
+                },
+              ]
+            }
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View
+                  accessibilityRole="tab"
+                  accessibilityState={
+                    Object {
+                      "selected": true,
+                    }
+                  }
+                  accessibilityStates={
+                    Array [
+                      "selected",
+                    ]
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  delayPressIn={0}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onLayout={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "opacity": 1,
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        Object {
+                          "width": 0,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    pointerEvents="none"
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "justifyContent": "center",
+                          "minHeight": 48,
+                          "padding": 10,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View>
+                      <View
+                        collapsable={false}
+                        style={
+                          Object {
+                            "opacity": 0,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "fontSize": 13,
+                                "margin": 4,
+                                "textAlign": "center",
+                                "textTransform": "uppercase",
+                              },
+                              Object {
+                                "color": "rgba(28, 28, 30, 0.5)",
+                              },
+                              Object {
+                                "fontSize": 15.318000000000001,
+                                "fontWeight": "bold",
+                              },
+                            ]
+                          }
+                        >
+                          My Items
+                        </Text>
+                      </View>
+                      <View
+                        collapsable={false}
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "opacity": 1,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "fontSize": 13,
+                                "margin": 4,
+                                "textAlign": "center",
+                                "textTransform": "uppercase",
+                              },
+                              Object {
+                                "color": "rgb(28, 28, 30)",
+                              },
+                              Object {
+                                "fontSize": 15.318000000000001,
+                                "fontWeight": "bold",
+                              },
+                            ]
+                          }
+                        >
+                          My Items
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View
+                  accessibilityRole="tab"
+                  accessibilityState={
+                    Object {
+                      "selected": false,
+                    }
+                  }
+                  accessibilityStates={Array []}
+                  accessible={true}
+                  collapsable={false}
+                  delayPressIn={0}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onLayout={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "opacity": 1,
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        Object {
+                          "width": 0,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    pointerEvents="none"
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "justifyContent": "center",
+                          "minHeight": 48,
+                          "padding": 10,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View>
+                      <View
+                        collapsable={false}
+                        style={
+                          Object {
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "fontSize": 13,
+                                "margin": 4,
+                                "textAlign": "center",
+                                "textTransform": "uppercase",
+                              },
+                              Object {
+                                "color": "rgba(28, 28, 30, 0.5)",
+                              },
+                              Object {
+                                "fontSize": 15.318000000000001,
+                                "fontWeight": "bold",
+                              },
+                            ]
+                          }
+                        >
+                          Following
+                        </Text>
+                      </View>
+                      <View
+                        collapsable={false}
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "opacity": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "fontSize": 13,
+                                "margin": 4,
+                                "textAlign": "center",
+                                "textTransform": "uppercase",
+                              },
+                              Object {
+                                "color": "rgb(28, 28, 30)",
+                              },
+                              Object {
+                                "fontSize": 15.318000000000001,
+                                "fontWeight": "bold",
+                              },
+                            ]
+                          }
+                        >
+                          Following
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </View>
+    <RNCViewPager
+      collapsable={false}
+      initialPage={0}
+      keyboardDismissMode="on-drag"
+      layout={
+        Object {
+          "height": 0,
+          "width": 1792,
+        }
+      }
+      layoutDirection="ltr"
+      onMoveShouldSetResponderCapture={[Function]}
+      onPageScroll={[Function]}
+      onPageScrollStateChanged={[Function]}
+      onPageSelected={[Function]}
+      scrollEnabled={true}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={false}
+          importantForAccessibility="auto"
+          style={
+            Array [
+              Object {
+                "flex": 1,
+                "overflow": "hidden",
+              },
+              Object {
+                "width": 1792,
+              },
+              Array [
+                Array [
+                  Object {
+                    "backgroundColor": "rgb(242, 242, 242)",
+                  },
+                  Object {
+                    "backgroundColor": "white",
+                  },
+                ],
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+              ],
+            ]
+          }
+        >
+          <View
+            collapsable={false}
+            style={Object {}}
+          >
+            <RCTScrollView
+              bounces={true}
+              contentContainerStyle={
+                Object {
+                  "paddingTop": 0,
+                }
+              }
+              data={Array []}
+              getItem={[Function]}
+              getItemCount={[Function]}
+              initialNumToRender={4}
+              keyExtractor={[Function]}
+              maxToRenderPerBatch={4}
+              onContentSizeChange={[Function]}
+              onLayout={[Function]}
+              onMomentumScrollBegin={[Function]}
+              onMomentumScrollEnd={[Function]}
+              onRefresh={[Function]}
+              onScroll={[Function]}
+              onScrollBeginDrag={[Function]}
+              onScrollEndDrag={[Function]}
+              refreshControl={
+                <RefreshControlMock
+                  onRefresh={[Function]}
+                  refreshing={true}
+                />
+              }
+              refreshing={true}
+              removeClippedSubviews={true}
+              renderItem={[Function]}
+              scrollEventThrottle={90}
+              showsVerticalScrollIndicator={false}
+              stickyHeaderIndices={Array []}
+              viewabilityConfigCallbackPairs={Array []}
+            >
+              <RCTRefreshControl />
+              <View />
+            </RCTScrollView>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={true}
+          importantForAccessibility="no-hide-descendants"
+          style={
+            Array [
+              Object {
+                "flex": 1,
+                "overflow": "hidden",
+              },
+              Object {
+                "width": 1792,
+              },
+              Array [
+                Array [
+                  Object {
+                    "backgroundColor": "rgb(242, 242, 242)",
+                  },
+                  Object {
+                    "backgroundColor": "white",
+                  },
+                ],
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+              ],
+            ]
+          }
+        />
+      </View>
+    </RNCViewPager>
+  </View>,
+  <View
+    style={
+      Object {
+        "position": "absolute",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fafbfb",
+          "borderBottomColor": "#ececec",
+          "borderBottomWidth": 1.6146,
+          "height": 107.64,
+          "shadowColor": "gray",
+          "shadowOffset": Object {
+            "height": 1.0764,
+            "width": 0,
+          },
+          "shadowOpacity": 0,
+          "shadowRadius": 3.2292,
+          "width": 1792,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+            "height": 107.64,
+            "marginTop": 0,
+            "width": 1792,
+          }
+        }
+      >
+        <Image
+          defaultSource={1}
+          style={
+            Object {
+              "height": 43.056000000000004,
+              "marginLeft": "auto",
+              "marginRight": "auto",
+              "shadowColor": "#5ee352",
+              "shadowOpacity": 0.4,
+              "shadowRadius": 4.305600000000001,
+              "width": 172.94460251046027,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginTop": 13.455000000000002,
+              "paddingLeft": 94.976,
+              "paddingRight": 94.976,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "opacity": 1,
+                }
+              }
+            >
+              <Image
+                defaultSource={1}
+                style={
+                  Object {
+                    "borderColor": "#8dceef",
+                    "borderRadius": 18.837,
+                    "borderWidth": 0.75348,
+                    "height": 37.674,
+                    "overflow": "visible",
+                    "shadowColor": "#9adcfc",
+                    "shadowOffset": Object {
+                      "height": 1.13022,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.4,
+                    "shadowRadius": 1.8837000000000002,
+                    "width": 37.674,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "fontSize": 16.9533,
+                    "marginLeft": 11.3022,
+                    "textShadowColor": "#c8e8f7d2",
+                    "textShadowRadius": 2.26044,
+                  }
+                }
+              >
+                Add Friends
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Image
+                defaultSource={1}
+                style={
+                  Object {
+                    "height": 37.674,
+                    "width": 37.674,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <Modal
+      animationType="fade"
+      hardwareAccelerated={false}
+      onDismiss={[Function]}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    />
+  </View>,
+]
+`;

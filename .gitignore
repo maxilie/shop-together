@@ -1,0 +1,26 @@
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+credentials/
+
+# IntelliJ IDEA
+.idea/
+
+# VS Code
+.vscode/
+
+# Yarn
+yarn.lock
+yarn-error.log
+package-lock.json
+
+# macOS
+.DS_Store

@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shop component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 50,
+        "width": 1792,
+      }
+    }
+    data={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "marginTop": 82.8,
+      }
+    }
+  >
+    <View />
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "position": "absolute",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fafbfb",
+          "borderBottomColor": "#f6f6f6",
+          "borderBottomWidth": 1.0764,
+          "height": 107.64,
+          "shadowColor": "lightgray",
+          "shadowOffset": Object {
+            "height": 5.382000000000001,
+            "width": 0,
+          },
+          "shadowOpacity": 0.5,
+          "shadowRadius": 13.9932,
+          "width": 1792,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+            "height": 107.64,
+            "marginTop": 0,
+            "width": 1792,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#363636",
+              "fontSize": 27.9864,
+              "fontWeight": "bold",
+              "marginLeft": "auto",
+              "marginRight": "auto",
+            }
+          }
+        >
+          Browse
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginTop": 18.890819999999998,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginLeft": 358.4,
+              }
+            }
+          >
+            <TextInput
+              allowFontScaling={false}
+              autoCapitalize="none"
+              autoComplete="off"
+              autoFocus={false}
+              clearButtonMode="while-editing"
+              maxLength={26}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder="Search Products"
+              placeholderTextColor="#464747"
+              selectionColor="#404040"
+              style={
+                Object {
+                  "backgroundColor": "#fafbfb",
+                  "borderColor": "#5797bd",
+                  "borderRadius": 18.837,
+                  "borderWidth": 0.75348,
+                  "fontSize": 13.185899999999998,
+                  "height": 37.674,
+                  "padding": 1.8837000000000002,
+                  "paddingLeft": 7.534800000000001,
+                  "shadowColor": "#e3f4fc",
+                  "shadowOpacity": 0.9,
+                  "shadowRadius": 3.39066,
+                  "width": 1075.2,
+                }
+              }
+              value=""
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

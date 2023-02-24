@@ -1,0 +1,780 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignInUpPage component renders correctly 1`] = `
+Array [
+  <View
+    accessible={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "height": 828,
+        "position": "absolute",
+        "width": 1792,
+      }
+    }
+  />,
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        Object {
+          "backgroundColor": "white",
+          "marginTop": 49.68,
+          "overflow": "visible",
+        },
+      ]
+    }
+  >
+    <View
+      entering={BaseAnimationMock {}}
+      exiting={BaseAnimationMock {}}
+      style={
+        Object {
+          "zIndex": 2,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        onLayout={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#fafbfb",
+            "elevation": 4,
+            "shadowColor": "#e1e9ed",
+            "shadowOffset": Object {
+              "height": 0.9108,
+              "width": 0,
+            },
+            "shadowOpacity": 0.6,
+            "shadowRadius": 5.464799999999999,
+            "zIndex": 1,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          pointerEvents="none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            style={
+              Object {
+                "backgroundColor": "rgb(0, 122, 255)",
+                "bottom": 0,
+                "height": 2,
+                "left": "0%",
+                "position": "absolute",
+                "right": 0,
+                "transform": Array [],
+                "width": "NaN%",
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "overflow": "scroll",
+            }
+          }
+        >
+          <RCTScrollView
+            accessibilityRole="tablist"
+            alwaysBounceHorizontal={false}
+            automaticallyAdjustContentInsets={false}
+            contentContainerStyle={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                },
+                Object {
+                  "flex": 1,
+                },
+                Object {
+                  "borderColor": "#f0f4f7",
+                  "borderTopWidth": 0.9108,
+                  "height": 45.54,
+                },
+              ]
+            }
+            data={
+              Array [
+                Object {
+                  "key": "SignIn-mock-nanoid-id",
+                  "name": "SignIn",
+                  "params": undefined,
+                },
+                Object {
+                  "key": "SignUp-mock-nanoid-id",
+                  "name": "SignUp",
+                  "params": undefined,
+                },
+              ]
+            }
+            getItem={[Function]}
+            getItemCount={[Function]}
+            horizontal={true}
+            initialNumToRender={10}
+            keyExtractor={[Function]}
+            keyboardShouldPersistTaps="handled"
+            onContentSizeChange={[Function]}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            onViewableItemsChanged={[Function]}
+            overScrollMode="never"
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={16}
+            scrollsToTop={false}
+            showsHorizontalScrollIndicator={false}
+            showsVerticalScrollIndicator={false}
+            stickyHeaderIndices={Array []}
+            viewabilityConfigCallbackPairs={
+              Array [
+                Object {
+                  "onViewableItemsChanged": [Function],
+                  "viewabilityConfig": undefined,
+                },
+              ]
+            }
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View
+                  accessibilityRole="tab"
+                  accessibilityState={
+                    Object {
+                      "selected": true,
+                    }
+                  }
+                  accessibilityStates={
+                    Array [
+                      "selected",
+                    ]
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  delayPressIn={0}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onLayout={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "opacity": 1,
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        Object {
+                          "width": 0,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    pointerEvents="none"
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "justifyContent": "center",
+                          "minHeight": 48,
+                          "padding": 10,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View>
+                      <View
+                        collapsable={false}
+                        style={
+                          Object {
+                            "opacity": 0,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "fontSize": 13,
+                                "margin": 4,
+                                "textAlign": "center",
+                                "textTransform": "uppercase",
+                              },
+                              Object {
+                                "color": "rgba(28, 28, 30, 0.5)",
+                              },
+                              Object {
+                                "fontSize": 40.39992079200156,
+                                "fontWeight": "bold",
+                              },
+                            ]
+                          }
+                        >
+                          Sign In
+                        </Text>
+                      </View>
+                      <View
+                        collapsable={false}
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "opacity": 1,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "fontSize": 13,
+                                "margin": 4,
+                                "textAlign": "center",
+                                "textTransform": "uppercase",
+                              },
+                              Object {
+                                "color": "rgb(28, 28, 30)",
+                              },
+                              Object {
+                                "fontSize": 40.39992079200156,
+                                "fontWeight": "bold",
+                              },
+                            ]
+                          }
+                        >
+                          Sign In
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View
+                  accessibilityRole="tab"
+                  accessibilityState={
+                    Object {
+                      "selected": false,
+                    }
+                  }
+                  accessibilityStates={Array []}
+                  accessible={true}
+                  collapsable={false}
+                  delayPressIn={0}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onLayout={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "opacity": 1,
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        Object {
+                          "width": 0,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    pointerEvents="none"
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "justifyContent": "center",
+                          "minHeight": 48,
+                          "padding": 10,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View>
+                      <View
+                        collapsable={false}
+                        style={
+                          Object {
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "fontSize": 13,
+                                "margin": 4,
+                                "textAlign": "center",
+                                "textTransform": "uppercase",
+                              },
+                              Object {
+                                "color": "rgba(28, 28, 30, 0.5)",
+                              },
+                              Object {
+                                "fontSize": 40.39992079200156,
+                                "fontWeight": "bold",
+                              },
+                            ]
+                          }
+                        >
+                          Sign Up
+                        </Text>
+                      </View>
+                      <View
+                        collapsable={false}
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "opacity": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "fontSize": 13,
+                                "margin": 4,
+                                "textAlign": "center",
+                                "textTransform": "uppercase",
+                              },
+                              Object {
+                                "color": "rgb(28, 28, 30)",
+                              },
+                              Object {
+                                "fontSize": 40.39992079200156,
+                                "fontWeight": "bold",
+                              },
+                            ]
+                          }
+                        >
+                          Sign Up
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </View>
+    <RNCViewPager
+      collapsable={false}
+      initialPage={0}
+      keyboardDismissMode="on-drag"
+      layout={
+        Object {
+          "height": 0,
+          "width": 1792,
+        }
+      }
+      layoutDirection="ltr"
+      onMoveShouldSetResponderCapture={[Function]}
+      onPageScroll={[Function]}
+      onPageScrollStateChanged={[Function]}
+      onPageSelected={[Function]}
+      scrollEnabled={true}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={false}
+          importantForAccessibility="auto"
+          style={
+            Array [
+              Object {
+                "flex": 1,
+                "overflow": "hidden",
+              },
+              Object {
+                "width": 1792,
+              },
+              Array [
+                Array [
+                  Object {
+                    "backgroundColor": "rgb(242, 242, 242)",
+                  },
+                  Object {
+                    "backgroundColor": "white",
+                  },
+                ],
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+              ],
+            ]
+          }
+        >
+          <View
+            accessible={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafbfb",
+                "flexDirection": "column",
+                "height": 710.0100000000001,
+                "justifyContent": "flex-start",
+                "width": 1792,
+              }
+            }
+          >
+            <Image
+              defaultSource={1}
+              style={
+                Object {
+                  "height": 523.7810945273633,
+                  "marginBottom": 41.8968,
+                  "marginTop": 23.04324,
+                  "resizeMode": "contain",
+                  "shadowColor": "#5ee352",
+                  "shadowOpacity": 0.2,
+                  "shadowRadius": 78.5671641791045,
+                  "width": 1433.6000000000001,
+                }
+              }
+            />
+            <TextInput
+              allowFontScaling={false}
+              autoCapitalize="none"
+              autoComplete="off"
+              clearButtonMode="while-editing"
+              maxLength={20}
+              onChange={[Function]}
+              placeholder="Name"
+              placeholderTextColor="#464747"
+              secureTextEntry={false}
+              selectionColor="#404040"
+              style={
+                Object {
+                  "backgroundColor": "#fafbfb",
+                  "borderColor": "#5797bd",
+                  "borderRadius": 10.4742,
+                  "borderWidth": 1.04742,
+                  "fontSize": 18.329849999999997,
+                  "height": 52.370999999999995,
+                  "marginBottom": 0,
+                  "marginTop": 0,
+                  "padding": 2.61855,
+                  "paddingLeft": 10.4742,
+                  "shadowColor": "#e3f4fc",
+                  "shadowOpacity": 0.9,
+                  "shadowRadius": 4.7133899999999995,
+                  "width": 314.226,
+                }
+              }
+              value=""
+            />
+            <TextInput
+              allowFontScaling={false}
+              autoCapitalize="none"
+              autoComplete="off"
+              clearButtonMode="while-editing"
+              maxLength={20}
+              onChange={[Function]}
+              placeholder="Password"
+              placeholderTextColor="#464747"
+              secureTextEntry={true}
+              selectionColor="#404040"
+              style={
+                Object {
+                  "backgroundColor": "#fafbfb",
+                  "borderColor": "#5797bd",
+                  "borderRadius": 10.4742,
+                  "borderWidth": 1.04742,
+                  "fontSize": 18.329849999999997,
+                  "height": 52.370999999999995,
+                  "marginBottom": 0,
+                  "marginTop": 20.9484,
+                  "padding": 2.61855,
+                  "paddingLeft": 10.4742,
+                  "shadowColor": "#e3f4fc",
+                  "shadowOpacity": 0.9,
+                  "shadowRadius": 4.7133899999999995,
+                  "width": 314.226,
+                }
+              }
+              value=""
+            />
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 28.27994455440109,
+                    "marginTop": 20.9484,
+                  }
+                }
+              >
+                Forgot Password?
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "transform": Array [
+                    Object {
+                      "scale": AnimatedValue {
+                        " __value": 1,
+                      },
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#4585c4",
+                    "borderRadius": 10.99791,
+                    "height": 54.989549999999994,
+                    "justifyContent": "center",
+                    "marginLeft": "auto",
+                    "marginRight": "auto",
+                    "marginTop": 41.8968,
+                    "shadowColor": "#4585c4",
+                    "shadowOffset": Object {
+                      "height": 4.399164,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.17,
+                    "shadowRadius": 16.496864999999996,
+                    "width": 1433.6000000000001,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontSize": 27.494774999999997,
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  SIGN IN
+                </Text>
+              </View>
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#1084b5",
+                      "fontSize": 34.339932673201325,
+                      "fontWeight": "bold",
+                      "marginTop": 25.13808,
+                    },
+                    null,
+                  ]
+                }
+              >
+                Login with Face ID
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={true}
+          importantForAccessibility="no-hide-descendants"
+          style={
+            Array [
+              Object {
+                "flex": 1,
+                "overflow": "hidden",
+              },
+              Object {
+                "width": 1792,
+              },
+              Array [
+                Array [
+                  Object {
+                    "backgroundColor": "rgb(242, 242, 242)",
+                  },
+                  Object {
+                    "backgroundColor": "white",
+                  },
+                ],
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+              ],
+            ]
+          }
+        />
+      </View>
+    </RNCViewPager>
+  </View>,
+]
+`;
